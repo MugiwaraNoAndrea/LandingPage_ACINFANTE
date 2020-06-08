@@ -1,0 +1,82 @@
+@charset "UTF-8";
+
+*{
+  margin: 2px;
+  padding: 2px;
+	background-color: #BCB079 ;
+}
+
+.Artist{
+	text-align: center;
+	color: #001167;
+	
+}
+
+.Artist p{
+  font-size: 35px;
+  font-family: 'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', Helvetica, Arial, 'sans-serif'
+  
+}
+
+.Title{
+  text-align: center;
+  display: inline-table;
+  height: 10px;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.Title p{
+  font-style: italic;
+  font-size: 250px;
+  color: white; 
+  font-family: Baskerville, 'Palatino Linotype', Palatino, 'Century Schoolbook L', 'Times New Roman', 'serif';
+}
+ 
+.Intro{
+  height: 100px;
+  width: 100%;
+  display: inline-table;
+}
+
+.Intro p{
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+    font-size: 24px;
+    vertical-align: middle;
+    text-align: center;
+}
+.Clip{
+  background-color: blue;
+  height: 200px;
+  width: 320px;
+  float: left;
+}
+
+.Contenedor{
+  align-content: center;
+  width: 90%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.Footer{
+    background: rgba(100, 100, 100, 12);
+	width: 100%;
+	align-items: center; 
+	align: center; 
+    height: 100px;
+    margin-top: 40px;
+    display: inline-table;
+}
+
+.Footer p{
+  font-family: 'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', Helvetica, Arial, 'sans-serif';
+  font-size: 17px;
+  text-align: center; 
+  display: table-cell;
+  vertical-align: middle;
+  color: #17044F;
+  background: rgba(119, 136, 153, 0);
+  padding-left: 5px;
+
+}
